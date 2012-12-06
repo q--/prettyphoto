@@ -661,9 +661,9 @@
 				return 'youtube';
 			}else if (itemSrc.match(/vimeo\.com/i)) {
 				return 'vimeo';
-			}else if(itemSrc.match(/\b.mov\b/i)){ 
+			}else if(itemSrc.match(/\b\.mov\b/i)){ 
 				return 'quicktime';
-			}else if(itemSrc.match(/\b.swf\b/i)){
+			}else if(itemSrc.match(/\b\.swf\b/i)){
 				return 'flash';
 			}else if(itemSrc.match(/\biframe=true\b/i)){
 				return 'iframe';
